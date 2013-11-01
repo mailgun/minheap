@@ -1,4 +1,4 @@
-https://drone.io/github.com/mailgun/minheap/status.png
+[![Build Status](https://drone.io/github.com/mailgun/minheap/status.png)](https://drone.io/github.com/mailgun/minheap/latest)
 
 minheap
 =======
