@@ -1,9 +1,14 @@
+https://drone.io/github.com/mailgun/minheap/status.png
+
 minheap
 =======
 
 Slightly more user-friendly heap on top of containers/heap.
 
 ```go
+
+import "github.com/mailgun/minheap"
+	
 
 func toEl(i int) interface{} {
 	return &i
@@ -13,9 +18,9 @@ func fromEl(i interface{}) int {
 	return *(i.(*int))
 }
 
-mh := NewMinHeap()
+mh := minheap.NewMinHeap()
 
-el := &Element{
+el := &minheap.Element{
    Value:    toEl(1),
    Priority: 5,
 }
