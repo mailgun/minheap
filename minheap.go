@@ -69,3 +69,7 @@ func (mh *MinHeap) UpdateEl(el *Element, priority int) {
 	el.Priority = priority
 	heap.Push(mh, el)
 }
+
+func (mh *MinHeap) RemoveEl(el *Element) {
+	heap.Remove(mh, el.index)
+}
